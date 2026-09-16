@@ -1,0 +1,7 @@
+.pill { display: inline-block; padding: 5px 11px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.status-pending { background: var(--color-warning-bg); color: var(--color-warning-text); }
+.status-shipped { background: var(--color-info-bg); color: var(--color-info-text); }
+.status-delivered { background: var(--color-success-bg); color: var(--color-success-text); }
+.status-cancelled { background: var(--color-danger-bg); color: var(--color-danger-text); }
+.stock-low { background: var(--color-danger-bg); color: var(--color-danger-text); }
+.stock-ok { background: var(--color-success-bg); color: var(--color-success-text); }

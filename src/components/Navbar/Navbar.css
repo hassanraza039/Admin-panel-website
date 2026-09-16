@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 24px;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+.navbar-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+.navbar-title { font-size: 20px; font-weight: 800; margin: 0; color: var(--color-text); }
+.navbar-subtitle { font-size: 13.5px; color: var(--color-text-muted); margin: 2px 0 0; }
+@media (max-width: 860px) { .navbar-menu-btn { display: block; } }

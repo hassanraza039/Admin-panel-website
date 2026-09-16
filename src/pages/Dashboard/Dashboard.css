@@ -1,0 +1,16 @@
+.dashboard { display: flex; flex-direction: column; gap: 24px; }
+.dashboard-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.dashboard-chart-card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-card); }
+.dashboard-chart-card h3 { margin: 0 0 16px; font-size: 15px; font-weight: 700; }
+.dashboard-tables { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+.dashboard-panel { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); box-shadow: var(--shadow-card); overflow: hidden; }
+.dashboard-panel h3 { margin: 0; padding: 16px 20px; font-size: 14.5px; font-weight: 700; border-bottom: 1px solid var(--color-border); }
+.dashboard-panel td { padding: 12px 20px; border-bottom: 1px solid #f5f6f8; font-size: 13.5px; }
+.dashboard-panel tr:last-child td { border-bottom: none; }
+.cell-strong { font-weight: 600; }
+.cell-muted { color: var(--color-text-muted); }
+.cell-right { text-align: right; }
+@media (max-width: 860px) {
+  .dashboard-stats { grid-template-columns: repeat(2, 1fr); }
+  .dashboard-tables { grid-template-columns: 1fr; }
+}
