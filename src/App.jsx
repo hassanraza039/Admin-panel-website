@@ -5,7 +5,7 @@ import Dashboard from "./pages/Dashboard/Dashboard.jsx";
 import ProductList from "./pages/ProductList/ProductList.jsx";
 import Orders from "./pages/Orders/Orders.jsx";
 import Customers from "./pages/Customers/Customers.jsx";
-import Login from "./pages/Login/Login.jsx";
+import Login from "./pages/Login/login.jsx";
 import { api, getToken, clearToken } from "./api.js";
 import { buildCustomers } from "./utils/format.js";
 import "./App.css";

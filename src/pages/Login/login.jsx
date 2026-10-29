@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { api, setToken } from "../../api.js";
-import "./Login.css";
+import "./login.css";
 
 export default function Login({ onLogin }) {
   const [form, setForm] = useState({ username: "", password: "" });
