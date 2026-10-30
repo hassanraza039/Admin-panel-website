@@ -1,4 +1,7 @@
-const BASE = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const BASE = import.meta.env.PROD
+  ? "https://e-commerce-website-backend-6h21.vercel.app/api"
+  : import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+
 const TOKEN_KEY = "admin_token";
 
 export const getToken = () => localStorage.getItem(TOKEN_KEY);
